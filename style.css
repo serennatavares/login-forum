@@ -5,8 +5,9 @@ body {
 }
 
 .home {
-    background-color: #ffc2d1;
+    background: linear-gradient(#ffc2d1, #ff9eb5);
     color: #5a2a3a;
+    min-height: 100vh;
 }
 
 .home header {
@@ -28,17 +29,22 @@ body {
     justify-content: center;
 }
 
-.home .perfil img {
-    width: 600px;
+.home .apresentacao {
+    flex: 1;
+    max-width: 600px;
 }
 
-.home .apresentacao h2 {
-    margin: 0;
-    font-size: 26px;
+.home .perfil img {
+    width: 300px;
+}
+
+.home .apresentacao {
+    text-align: left;
 }
 
 .home .apresentacao p {
-    line-height: 1.6;
+    line-height: 1.7;
+    text-align: justify;
 }
 
 .home .paginacao {
@@ -68,67 +74,49 @@ body {
     color: white;
 }
 
-
-.historia {
-    background-color: #ffc2d1;
-    color: #5a2a3a;
+.curiosidades .perfil img {
+    width: 600px;
 }
 
-.historia header {
-    text-align: center;
-    padding: 30px;
-    font-size: 28px;
+.login {
+    background: linear-gradient(#ffc2d1, #ff9eb5);
+    font-family: 'Segoe UI', sans-serif;
 }
 
-.historia .container {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
+#titulo {
+    color: #cc1b5f;
+    font-weight: bold;
 }
 
-.historia .perfil {
+.login .btn-primary {
+    background-color: #cc1b5f;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.login .btn-primary:hover {
+    background-color: #a0144a;
+}
+
+.home .perfil {
     display: flex;
     gap: 40px;
     align-items: center;
     justify-content: center;
-}
 
-.historia .perfil img {
-    width: 600px;
-}
-
-.historia .apresentacao h2 {
-    margin: 0;
-    font-size: 26px;
-}
-
-.historia .apresentacao p {
-    line-height: 1.6;
-}
-
-.historia .paginacao {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 40px;
-}
-
-.historia .paginacao a {
     background: white;
-    color: #cc1b5f;
-    padding: 10px 15px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
-.historia .paginacao a:hover {
-    background: #ff9eb5;
-    color: white;
+.home .apresentacao h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
 }
 
-.historia .paginacao .ativo {
-    background: #cc1b5f;
-    color: white;
+.home .apresentacao p {
+    line-height: 1.8;
+    text-align: justify;
 }
