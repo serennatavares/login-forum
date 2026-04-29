@@ -1,0 +1,69 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.home {
+    background-color: #ffc2d1;
+    color: #5a2a3a;
+}
+
+.home header {
+    text-align: center;
+    padding: 30px;
+    font-size: 28px;
+}
+
+.home .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.home .perfil {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .perfil img {
+    width: 600px;
+}
+
+.home .apresentacao h2 {
+    margin: 0;
+    font-size: 26px;
+}
+
+.home .apresentacao p {
+    line-height: 1.6;
+}
+
+.home .paginacao {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.home .paginacao a {
+    background: white;
+    color: #cc1b5f;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.home .paginacao a:hover {
+    background: #ff9eb5;
+    color: white;
+}
+
+.home .paginacao .ativo {
+    background: #cc1b5f;
+    color: white;
+}
