@@ -67,3 +67,68 @@ body {
     background: #cc1b5f;
     color: white;
 }
+
+
+.historia {
+    background-color: #ffc2d1;
+    color: #5a2a3a;
+}
+
+.historia header {
+    text-align: center;
+    padding: 30px;
+    font-size: 28px;
+}
+
+.historia .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.historia .perfil {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.historia .perfil img {
+    width: 600px;
+}
+
+.historia .apresentacao h2 {
+    margin: 0;
+    font-size: 26px;
+}
+
+.historia .apresentacao p {
+    line-height: 1.6;
+}
+
+.historia .paginacao {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.historia .paginacao a {
+    background: white;
+    color: #cc1b5f;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.historia .paginacao a:hover {
+    background: #ff9eb5;
+    color: white;
+}
+
+.historia .paginacao .ativo {
+    background: #cc1b5f;
+    color: white;
+}
